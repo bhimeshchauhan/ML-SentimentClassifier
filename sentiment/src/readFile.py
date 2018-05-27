@@ -10,20 +10,24 @@ class readFile(object):
         try:
             with open(file, 'rU') as f:
                 fList = f.readlines()
-            self.noiseremoval(self, fList)
+            self.tokenization(self, fList)
         except Exception as ex:
             print(ex)
 
     @staticmethod
-    def noiseremoval(self, fileItems):
+    def tokenization(self, fileItems):
         """
         For debug to print the statements from the file.
         :return: Items from the read list.
         """
+        cleanList = []
         for item in fileItems:
-            print("old item  :", item)
-            print(re.sub(r'[^a-zA-Z ]', '', str(item)).split())
+            cleanList.append(re.sub(r'[^a-zA-Z ]', '', str(item)).split())
+
+        for item in cleanList:
+            print(item)
+            print(list(set(item)))
 
 
 if __name__ == "__main__":
-    readFile().read('sentiment-neg.txt')
+    readFile().read('sentiment-pos.txt')
