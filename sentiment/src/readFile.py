@@ -1,3 +1,5 @@
+import nltk
+
 class readFile(object):
 
     def read(self, file):
@@ -10,18 +12,27 @@ class readFile(object):
         try:
             with open(file, 'rU') as f:
                 fList = f.readlines()
+            self.debug(fList)
         except Exception as ex:
             print(ex)
 
-        self.debug(fList)
+
 
     def debug(self, fileItems):
         """
         For debug to print the statements from the file.
         :return: Items from the read list.
         """
+        nltk.download('words')
+        english_vocab = set(w.lower() for w in nltk.corpus.words.words())
         for item in fileItems:
-            print(item)
+            sList = item.strip().split()
+            print("old slist ", sList)
+            for words in sList:
+                if words not in english_vocab:
+                    sList.remove(words)
+            print(sList)
+        print(',' in english_vocab)
 
 
 
