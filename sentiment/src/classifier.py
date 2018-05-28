@@ -78,10 +78,14 @@ def naive_bayes(test):
 print('Enter the sentence')
 text = input()
 result = naive_bayes(text)
-
+print("result", result)
+if '1' not in result.keys():
+    result['1'] = result['1,']
+elif '-1' not in result.keys():
+    result['-1'] = result['-1,']
 if result['1'] > result['-1']:
-    # print(result['1'], result['-1'])
+    print("positive %", result['1'], "negative %", result['-1'])
     print('positive')
-elif result['1'] < result['-1']:
-    # print(result['1'], result['-1'])
+else:
+    print(result['1'], result['-1'])
     print('negative')

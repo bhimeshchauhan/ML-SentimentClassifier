@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abe6936a-f9eb-4f0c-b542-5b42facdb593" name="Default" comment="parsing added">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sensitive1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/sensitive1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sensitive_data.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tocsv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sentiment-neg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/sentiment-neg.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sentiment-pos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/sentiment-pos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tokenizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tokenizer.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sensitive1.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sensitive1.py">
+      <file leaf-file-name="tokenizer.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tokenizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="240">
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="26" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -27,11 +30,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tokenizer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tokenizer.py">
+      <file leaf-file-name="tocsv.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tocsv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            <state relative-caret-position="257">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classifier.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classifier.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="86" column="50" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -54,10 +69,16 @@
       <find>naive_bayes</find>
       <find>fh</find>
       <find>dataset</find>
+      <find>setd</find>
+      <find>set</find>
+      <find>feature_set</find>
+      <find>no_of_items</find>
     </findStrings>
     <replaceStrings>
       <replace>file</replace>
       <replace>tokenize</replace>
+      <replace>feature</replace>
+      <replace>labels</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -70,8 +91,10 @@
         <option value="$PROJECT_DIR$/../../Sentiment-Analysis-using-Naive-Bayes-Classifier/Source/sensitive_data.py" />
         <option value="$PROJECT_DIR$/../../Sentiment-Analysis-using-Naive-Bayes-Classifier/Source/sensitive1.py" />
         <option value="$PROJECT_DIR$/src/sensitive_data.py" />
-        <option value="$PROJECT_DIR$/src/tokenizer.py" />
         <option value="$PROJECT_DIR$/src/sensitive1.py" />
+        <option value="$PROJECT_DIR$/src/tocsv.py" />
+        <option value="$PROJECT_DIR$/src/classifier.py" />
+        <option value="$PROJECT_DIR$/src/tokenizer.py" />
       </list>
     </option>
   </component>
@@ -116,8 +139,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sensitive1 (1)">
-    <configuration name="readFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.classifier">
+    <configuration name="classifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,7 +152,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/readFile.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/classifier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,24 +176,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="sensitive1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="sentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Sentiment-Analysis-using-Naive-Bayes-Classifier/Source" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../Sentiment-Analysis-using-Naive-Bayes-Classifier/Source/sensitive1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="sensitive_data (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,7 +194,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="sensitive_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tocsv" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -197,30 +202,48 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Sentiment-Analysis-using-Naive-Bayes-Classifier/Source" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../Sentiment-Analysis-using-Naive-Bayes-Classifier/Source/sensitive_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tocsv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="tokenizer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tokenizer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.readFile" />
-      <item itemvalue="Python.sensitive_data" />
-      <item itemvalue="Python.sensitive1" />
       <item itemvalue="Python.sensitive1 (1)" />
       <item itemvalue="Python.sensitive_data (1)" />
+      <item itemvalue="Python.tocsv" />
+      <item itemvalue="Python.tokenizer" />
+      <item itemvalue="Python.classifier" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.classifier" />
+        <item itemvalue="Python.tokenizer" />
+        <item itemvalue="Python.tocsv" />
         <item itemvalue="Python.sensitive1 (1)" />
         <item itemvalue="Python.sensitive_data (1)" />
-        <item itemvalue="Python.sensitive1" />
-        <item itemvalue="Python.sensitive_data" />
-        <item itemvalue="Python.readFile" />
       </list>
     </recent_temporary>
   </component>
@@ -239,6 +262,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -248,7 +272,7 @@
       <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -261,6 +285,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sentiment-neg.txt">
@@ -310,20 +339,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tokenizer.py">
+    <entry file="file://$PROJECT_DIR$/src/sensitive1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sensitive1.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pandas/io/parsers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="127">
+          <caret line="1847" selection-start-line="1847" selection-end-line="1847" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="86" column="50" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tocsv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tokenizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="26" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
