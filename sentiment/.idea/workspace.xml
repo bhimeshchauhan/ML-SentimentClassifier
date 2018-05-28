@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abe6936a-f9eb-4f0c-b542-5b42facdb593" name="Default" comment="parsing added" />
+    <list default="true" id="abe6936a-f9eb-4f0c-b542-5b42facdb593" name="Default" comment="parsing added">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sensitive1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/sensitive1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sensitive_data.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +18,23 @@
       <file leaf-file-name="sensitive1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sensitive1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tokenizer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tokenizer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,8 +51,14 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>raw_</find>
+      <find>naive_bayes</find>
+      <find>fh</find>
       <find>dataset</find>
     </findStrings>
+    <replaceStrings>
+      <replace>file</replace>
+      <replace>tokenize</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -44,6 +69,9 @@
         <option value="$PROJECT_DIR$/src/readFile.py" />
         <option value="$PROJECT_DIR$/../../Sentiment-Analysis-using-Naive-Bayes-Classifier/Source/sensitive_data.py" />
         <option value="$PROJECT_DIR$/../../Sentiment-Analysis-using-Naive-Bayes-Classifier/Source/sensitive1.py" />
+        <option value="$PROJECT_DIR$/src/sensitive_data.py" />
+        <option value="$PROJECT_DIR$/src/tokenizer.py" />
+        <option value="$PROJECT_DIR$/src/sensitive1.py" />
       </list>
     </option>
   </component>
@@ -143,6 +171,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="sensitive_data (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/sensitive_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="sensitive_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,10 +212,12 @@
       <item itemvalue="Python.sensitive_data" />
       <item itemvalue="Python.sensitive1" />
       <item itemvalue="Python.sensitive1 (1)" />
+      <item itemvalue="Python.sensitive_data (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.sensitive1 (1)" />
+        <item itemvalue="Python.sensitive_data (1)" />
         <item itemvalue="Python.sensitive1" />
         <item itemvalue="Python.sensitive_data" />
         <item itemvalue="Python.readFile" />
@@ -190,8 +238,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -253,10 +300,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sensitive_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tokenizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sensitive1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
